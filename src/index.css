@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+    background:linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    font-family: 'Fredoka One', cursive;
+    color: white;
+}
+
+a, Link {
+    color: white;
+    text-decoration: none;
+}
