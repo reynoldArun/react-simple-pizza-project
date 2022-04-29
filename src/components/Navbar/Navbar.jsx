@@ -1,14 +1,16 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+
 
 import './Navbar.css'
 
 const Navbar = () => {
+  const location = useLocation()
   return (
     <nav className="navbar">
       <Link to="/">
         <h1 className="navbar__heading">PIZZA CORNER</h1>
       </Link>
-      <div className="navbar__links">
+      <div className={location.pathname === '/menu' ? 'hidden': 'navbar__links'}>
         <Link to="/login">
           <button className="navbar__item">Login</button>
         </Link>

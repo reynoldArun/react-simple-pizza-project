@@ -24,3 +24,8 @@ button {
     font-family: 'Fredoka One', cursive;
     border: none;
 }
+
+li {
+    list-style-type: none;
+    letter-spacing: 2px;
+}

@@ -10,7 +10,7 @@ const Home = () => {
       <div className="header__content">
           <h1 className='header_heading'>Best Pizza In Every State</h1>
           <h3>50% off on 1st Purchase</h3>
-          <Link to="/">
+          <Link to="/menu">
             <button className='header__btn'>View Menu</button>
           </Link>
       </div>
