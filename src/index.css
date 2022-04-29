@@ -8,7 +8,7 @@
 
 body {
     font-size: 100%;
-    background:linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    background:linear-gradient(to right,#0d324d, #7f5a83);
     font-family: 'Fredoka One', cursive;
     color: white;
 }
