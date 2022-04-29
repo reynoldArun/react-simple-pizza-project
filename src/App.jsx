@@ -1,10 +1,11 @@
-import { BrowserRouter, Routes, Router, Route } from "react-router-dom"
-import Footer from "./components/Footer/Footer"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+
 
 import Home from "./components/Home/Home"
 import Navbar from "./components/Navbar/Navbar"
 import Login from './routing/Login'
 import Register from './routing/Register'
+import Footer from "./components/Footer/Footer"
 
 const App = () => {
   return (
