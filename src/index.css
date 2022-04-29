@@ -16,4 +16,11 @@ body {
 a, Link {
     color: white;
     text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+    font-family: 'Fredoka One', cursive;
+    border: none;
 }
