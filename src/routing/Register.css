@@ -1,0 +1,59 @@
+.register__form {
+    width: 300px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    padding: 20px;  
+    color: black; 
+}
+
+.register__form > h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+
+.register__form > label {
+    display: block;
+    margin: 20px 0 10px;
+    
+}
+
+.register__form > input {
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.register__form > button {
+    margin-top: 20px;
+    background: #FEE996;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    display: block;
+    padding: 10px 16px;
+    letter-spacing: 2px;
+}
+
+.register__pizza {
+    height: 100px;
+    width: 100px;
+    margin-left: 150px;
+}
+
+
+@media only screen and (min-width: 650px) {
+    .register__form {
+        width: 400px;
+    }
+    .register__pizza {
+        height: 150px;
+        width: 150px;
+        margin-left: 180px;
+        margin-top: -50px;
+    }
+}
+
